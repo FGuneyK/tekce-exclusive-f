@@ -223,10 +223,19 @@ export function SiteHeader() {
             item.label === "Markets" ? (
               <div
                 key={item.href}
-                className="relative flex h-full items-center"
+                className="relative flex h-full items-center gap-1"
                 onMouseEnter={() => setMenu("markets")}
                 onMouseLeave={() => setMenu(null)}
               >
+                {/* The label goes to the markets index; the chevron opens the
+                    list of individual markets. */}
+                <Link
+                  href={item.href}
+                  onClick={() => setMenu(null)}
+                  className={navLink}
+                >
+                  {item.label}
+                </Link>
                 <button
                   type="button"
                   aria-haspopup="true"
@@ -235,9 +244,11 @@ export function SiteHeader() {
                   onClick={() =>
                     setMenu(menu === "markets" ? null : "markets")
                   }
-                  className={`inline-flex items-center gap-1.5 ${navLink}`}
+                  className={`inline-flex h-full items-center px-1 ${navLink}`}
                 >
-                  {item.label}
+                  <span className="sr-only">
+                    {menu === "markets" ? "Hide markets" : "Show markets"}
+                  </span>
                   <Chevron open={menu === "markets"} />
                 </button>
 
@@ -288,17 +299,34 @@ export function SiteHeader() {
             {NAV_ITEMS.map((item) =>
               item.label === "Markets" ? (
                 <li key={item.href}>
-                  <button
-                    type="button"
-                    aria-expanded={mobileSection === "markets"}
-                    onClick={() => toggleMobileSection("markets")}
-                    className={`flex min-h-12 w-full items-center justify-between text-xl tracking-tight text-ink ${focusRing}`}
-                  >
-                    {item.label}
-                    <Chevron open={mobileSection === "markets"} />
-                  </button>
+                  <div className="flex items-center">
+                    <Link
+                      href={item.href}
+                      onClick={() => setMobileOpen(false)}
+                      className={`flex min-h-12 flex-1 items-center text-xl tracking-tight text-ink ${focusRing}`}
+                    >
+                      {item.label}
+                    </Link>
+                    <button
+                      type="button"
+                      aria-expanded={mobileSection === "markets"}
+                      aria-controls="mobile-markets"
+                      onClick={() => toggleMobileSection("markets")}
+                      className={`-mr-2 flex size-12 shrink-0 items-center justify-center text-ink ${focusRing}`}
+                    >
+                      <span className="sr-only">
+                        {mobileSection === "markets"
+                          ? "Hide markets"
+                          : "Show markets"}
+                      </span>
+                      <Chevron open={mobileSection === "markets"} />
+                    </button>
+                  </div>
                   {mobileSection === "markets" && (
-                    <ul className="mb-2 flex flex-col border-l border-ink/10 pl-4">
+                    <ul
+                      id="mobile-markets"
+                      className="mb-2 flex flex-col border-l border-ink/10 pl-4"
+                    >
                       {MARKETS.map((market) => (
                         <li key={market.href}>
                           <Link
