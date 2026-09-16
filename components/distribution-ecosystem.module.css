@@ -1,0 +1,74 @@
+/*
+  One DOM, two compositions. On narrow screens the flow runs top to bottom and
+  the two partner channels sit side by side; from lg it runs left to right and
+  the channels stack. Branch cells split the row in exact halves so the
+  connector curves land on the node centres at 25% and 75%.
+*/
+.diagram {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas:
+    "supply supply"
+    "c1 c1"
+    "platform platform"
+    "c2 c2"
+    "group external"
+    "c3 c3"
+    "demand demand";
+  column-gap: 0.75rem;
+}
+
+@media (width >= 64rem) {
+  .diagram {
+    grid-template-columns:
+      minmax(0, 1fr) 3.5rem minmax(0, 1fr) 3.5rem minmax(0, 1fr)
+      3.5rem minmax(0, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "supply c1 platform c2 group c3 demand"
+      "supply c1 platform c2 external c3 demand";
+    column-gap: 0;
+  }
+}
+
+@media (width >= 80rem) {
+  .diagram {
+    grid-template-columns:
+      minmax(0, 1fr) 5rem minmax(0, 1fr) 5rem minmax(0, 1fr)
+      5rem minmax(0, 1fr);
+  }
+}
+
+.supply { grid-area: supply; }
+.platform { grid-area: platform; }
+.group { grid-area: group; }
+.external { grid-area: external; }
+.demand { grid-area: demand; }
+.c1 { grid-area: c1; }
+.c2 { grid-area: c2; }
+.c3 { grid-area: c3; }
+
+/*
+  A short dash travels each connector in turn: into the platform, through both
+  channels at once, then on to buyers. All connectors share one duration, so
+  the stages stay in step indefinitely. Reduced-motion users get static lines
+  via the global rule in globals.css.
+*/
+.pulse {
+  stroke-dasharray: 14 200;
+  stroke-dashoffset: 14;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    stroke-dashoffset: 14;
+    animation-timing-function: cubic-bezier(0.45, 0, 0.55, 1);
+  }
+  24% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: -100;
+  }
+}

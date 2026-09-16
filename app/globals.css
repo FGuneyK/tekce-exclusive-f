@@ -1,26 +1,95 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+
+  /* Brand — sampled from the supplied logo files, not invented. */
+  --color-ink: #1c2248;
+  --color-ink-deep: #151a3a;
+  --color-accent: #e63e5e;
+  --color-paper: #ffffff;
+  --color-mist: #f3f4f7;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Single source of truth for horizontal alignment. Every full-width band on
+   the site wraps its content in this, so the header and page content share
+   exactly the same left and right edges. */
+@utility site-container {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 90rem;
+  padding-inline: 1.25rem;
+  @media (width >= 40rem) {
+    padding-inline: 2rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2.5rem;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* A single item travelling the distribution chain — entry, then exit. */
+@keyframes tekce-flow {
+  0% {
+    transform: translateX(-140%);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(240%);
+    opacity: 0;
+  }
+}
+
+/* Distribution diagram: a mark runs each wire in turn, splits at the fork and
+   rejoins before the buyer. The move takes the first 15% of the cycle; the
+   component offsets each leg by the same fraction. */
+@keyframes wire-flow {
+  0% {
+    left: -1.5rem;
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  15% {
+    left: 100%;
+    opacity: 1;
+  }
+  16%,
+  100% {
+    left: 100%;
+    opacity: 0;
+  }
+}
+
+/* One vertical rhythm for every content section on the page. */
+@utility section-y {
+  padding-block: 5rem;
+  @media (width >= 64rem) {
+    padding-block: 6rem;
+  }
+}
+
+@layer base {
+  ::selection {
+    background-color: #1c2248;
+    color: #ffffff;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
