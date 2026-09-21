@@ -4,11 +4,6 @@ const STAGES = ["Enquiry", "Viewing", "Reserved", "Contract", "Completed"];
 
 type Entry = { unit: string; channel: string; registered: string; stage: number };
 
-/**
- * Illustrative mock report for an unnamed project. Unit references continue
- * the homepage "Pipeline" panel; dates and stages are invented for the
- * prototype and carry no prices.
- */
 const PIPELINE: Entry[] = [
   { unit: "B-204", channel: "Independent partner", registered: "14 Sep", stage: 0 },
   { unit: "A-112", channel: "TEKCE", registered: "11 Sep", stage: 1 },

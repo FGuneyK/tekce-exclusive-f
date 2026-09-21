@@ -41,7 +41,6 @@ const alignClass: Record<Align, string> = {
 
 const CITIES = OFFICE_COUNTRIES.flatMap((country) => country.cities);
 
-/** One arc per country outside Türkiye, so the lines show reach without crowding the cluster. */
 const ARC_TARGETS = ["Alicante", "Girne", "Dubai", "Stockholm"];
 
 const HUB = project(EXCLUSIVE_OFFICE.lat, EXCLUSIVE_OFFICE.lon);

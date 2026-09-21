@@ -10,12 +10,6 @@ export const metadata: Metadata = {
     "Spain, T\u00fcrkiye, North Cyprus and the United Arab Emirates: where TEKCE sells, and how a purchase actually runs in each market.",
 };
 
-/**
- * An index, like /projects: one row per market with the figures that separate
- * them, the mechanics set side by side, and a way in to each market's own
- * page. Written for buyers and partner agencies, not developers — what a
- * market is worth to a developer depends on where their project already is.
- */
 export default function MarketsPage() {
   return (
     <main>

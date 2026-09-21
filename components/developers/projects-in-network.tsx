@@ -37,12 +37,6 @@ function AllProjectsLink({ className }: { className: string }) {
     </Link>
   );
 }
-
-/**
- * Proof for developers, kept compact: the homepage showcase's card treatment
- * (photograph, name, place) in a single even row, because here the projects
- * support the argument rather than lead it.
- */
 export function ProjectsInNetwork() {
   return (
     <section id="projects" className="scroll-mt-14 bg-mist lg:scroll-mt-28">

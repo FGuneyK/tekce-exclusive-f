@@ -26,11 +26,6 @@ export async function generateMetadata(
   };
 }
 
-/**
- * A listing page: pictures and the enquiry panel together in the first
- * screen, then the written account and specification, what is left of the
- * building, the place, and the way out.
- */
 export default async function ProjectPage(props: PageProps<"/projects/[slug]">) {
   const { slug } = await props.params;
   const project = projectBySlug(slug);

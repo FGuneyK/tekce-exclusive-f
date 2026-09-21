@@ -5,7 +5,6 @@ import { FEATURED_PROJECTS } from "@/lib/projects";
 const focusRing =
   "focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink";
 
-/** Wide, narrow / narrow, wide — so the two rows read as one composition. */
 const WIDE_SLOTS = new Set([0, 3]);
 
 function Arrow({ className = "" }: { className?: string }) {

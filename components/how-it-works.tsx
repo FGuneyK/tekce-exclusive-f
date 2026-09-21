@@ -14,10 +14,6 @@ type Step = {
 const unsplash = (id: string) =>
   `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=1600&h=1000&q=80`;
 
-/**
- * The floating panels illustrate what each stage produces. Their contents are
- * prototype mock data for an unnamed project, not TEKCE figures.
- */
 const STEPS: Step[] = [
   {
     number: "01",

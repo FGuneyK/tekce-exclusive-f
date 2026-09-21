@@ -13,11 +13,6 @@ export const metadata: Metadata = {
     "A partner network for agencies with international clients: selected projects, registered and protected leads, transparent commissions and local support through closing.",
 };
 
-/**
- * The agency's reading order: the offer, what they work with, how a client
- * stays theirs, the argument behind it, who supports the sale abroad, how the
- * group partner fits in, and the application.
- */
 export default function PartnersPage() {
   return (
     <main>

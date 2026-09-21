@@ -1,4 +1,3 @@
-/** TEKCE Group's core values and mottos, verbatim from tekce.com/corporate (checked 2026-09-15). */
 const VALUES = [
   { name: "Goodness", motto: "Above all, be good." },
   { name: "Integrity", motto: "Honesty is the best policy." },

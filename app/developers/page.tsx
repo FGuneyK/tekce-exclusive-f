@@ -15,12 +15,6 @@ export const metadata: Metadata = {
     "International sales for real estate developers: positioning, marketing, distribution and the management of every sale, through one accountable partner.",
 };
 
-/**
- * The developer's reading order: the offer, why one structure beats many
- * agencies, the exact scope, how distribution works, the argument behind it,
- * what they will see, how to start, proof, and the ask. The distribution
- * diagram and the closing CTA are the approved homepage components.
- */
 export default function DevelopersPage() {
   return (
     <main>

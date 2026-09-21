@@ -5,12 +5,6 @@ type Row = { topic: string; fragmented: string; structured: string };
 const FRAGMENTED_LABEL = "Selling agency by agency";
 const STRUCTURED_LABEL = "With TEKCE Exclusive";
 
-/**
- * The right-hand column restates the verified distribution model (registered
- * leads, transparent commissions, shared reporting, local support in the four
- * markets). The left-hand column describes the common alternative in general
- * terms, not any named competitor.
- */
 const ROWS: Row[] = [
   {
     topic: "Sales authority",

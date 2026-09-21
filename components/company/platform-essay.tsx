@@ -1,13 +1,5 @@
 type Chapter = { title: string; paragraphs: string[]; closing?: string };
 
-/**
- * The page's long read, set in chapters: a large opening statement, then
- * each chapter's title holds in the left column while its text runs on the
- * right. Dated facts come from tekce.com/corporate and tekceexclusive.com;
- * the model is the verified distribution model; the rest is argument.
- *
- * Likely a CMS "article" block in production: title, lead, chapters.
- */
 const CHAPTERS: Chapter[] = [
   {
     title: "Where it comes from",

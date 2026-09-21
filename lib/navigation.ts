@@ -7,7 +7,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Markets", href: "/markets" },
   { label: "Invest", href: "/invest" },
   { label: "Platform", href: "/platform" },
-  { label: "Insights", href: "/insights" },
+  { label: "Insights", href: "/blog" },
   { label: "Company", href: "/company" },
 ];
 

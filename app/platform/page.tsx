@@ -16,12 +16,6 @@ export const metadata: Metadata = {
     "The TEKCE Exclusive platform: distribution ecosystem, TeleProperty remote viewing, sales and CRM, the developer dashboard and the partner platform.",
 };
 
-/**
- * A product page: a sticky module index under the hero, then how the parts
- * fit together, each module in turn with the long read in the middle, and
- * the approved Submit Your Project close. The distribution diagram and the
- * closing CTA are the approved homepage components.
- */
 export default function PlatformPage() {
   return (
     <main>

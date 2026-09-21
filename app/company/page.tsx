@@ -15,11 +15,6 @@ export const metadata: Metadata = {
     "TEKCE Exclusive is the project sales platform of TEKCE Group: who we are, the group behind us, our business model and our international network.",
 };
 
-/**
- * Read like a company report: the index in the hero, then who we are, the
- * group, its history, the argument for the platform, the model, the
- * network, the values, and where to go next.
- */
 export default function CompanyPage() {
   return (
     <main>

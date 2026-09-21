@@ -11,11 +11,6 @@ type Faq = {
   link: { label: string; href: string };
 };
 
-/**
- * Every answer is built from copy already approved elsewhere on the page or
- * from verified TEKCE information. Commercial terms (exclusivity, fees,
- * timelines) are deliberately absent until they are confirmed.
- */
 const FAQS: Faq[] = [
   {
     question: "What exactly does TEKCE Exclusive take on?",

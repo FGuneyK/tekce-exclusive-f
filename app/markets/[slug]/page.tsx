@@ -29,11 +29,6 @@ export async function generateMetadata(
   };
 }
 
-/**
- * An account of one market, written from the outside: what the place is, what
- * shapes it, the order a purchase follows there, and what it adds to the
- * price. Every figure comes from TEKCE's published country and cost guides.
- */
 export default async function MarketPage(props: PageProps<"/markets/[slug]">) {
   const { slug } = await props.params;
   const market = marketBySlug(slug);

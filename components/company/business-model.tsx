@@ -6,11 +6,6 @@ type Lane = {
   blocks: { label: string; items: string[] }[];
 };
 
-/**
- * The distribution model supplied by the user (2026-09-14), read as an
- * exchange: what each party brings and what it receives. No revenue or fee
- * terms, which are not confirmed.
- */
 const LANES: Lane[] = [
   {
     role: "Supply",

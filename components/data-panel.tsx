@@ -33,11 +33,6 @@ function Marker({ type }: { type: PanelRow["marker"] }) {
   return null;
 }
 
-/**
- * The small product-style panel laid over photographs to show what a stage or
- * feature produces. Purely illustrative, so hidden from assistive tech; the
- * surrounding copy carries the meaning. Position it with `className`.
- */
 export function DataPanel({
   panel,
   className = "",

@@ -5,10 +5,6 @@ import { MARKETS } from "@/lib/navigation";
 const IMAGE =
   "https://images.unsplash.com/photo-1763965367191-6455ef032c79?auto=format&fit=crop&w=1800&h=1500&q=80";
 
-/**
- * Establishment year and office from tekceexclusive.com (checked
- * 2026-09-15); markets from the shared navigation list.
- */
 const FACTS = [
   { term: "Established", detail: "2018" },
   { term: "Office", detail: "Kadıköy, Istanbul" },

@@ -12,11 +12,6 @@ export const metadata: Metadata = {
     "Invest in new property in Spain, Türkiye, North Cyprus and the United Arab Emirates, with complete project information, one price and local support through closing.",
 };
 
-/**
- * The one buyer-facing page. Reading order: the offer, why this way of
- * buying, what is available, the argument behind it, what to ask, and who
- * to buy through.
- */
 export default function InvestPage() {
   return (
     <main>

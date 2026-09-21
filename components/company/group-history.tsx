@@ -1,10 +1,4 @@
 type Milestone = { mark: string; title: string; text: string; exclusive?: boolean };
-
-/**
- * Dated milestones from tekce.com/corporate and tekceexclusive.com (checked
- * 2026-09-15). The site gives no year for the unified TEKCE name or the
- * later countries, so that step is marked "Then" rather than dated.
- */
 const MILESTONES: Milestone[] = [
   {
     mark: "2004",
