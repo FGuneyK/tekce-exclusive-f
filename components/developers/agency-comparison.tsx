@@ -75,7 +75,7 @@ export function AgencyComparison() {
                 width={181}
                 height={57}
                 unoptimized
-                className="h-7 w-auto"
+                className="h-9 w-auto"
               />
             </div>
           </div>

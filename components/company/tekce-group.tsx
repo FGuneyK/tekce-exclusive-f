@@ -96,7 +96,7 @@ export function TekceGroup() {
                           width={181}
                           height={57}
                           unoptimized
-                          className="h-7 w-auto"
+                          className="h-9 w-auto"
                         />
                       ) : (
                         <p className="text-xl font-semibold tracking-tight text-paper">

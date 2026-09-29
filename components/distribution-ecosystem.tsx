@@ -114,7 +114,7 @@ function Node({
               width={181}
               height={57}
               unoptimized
-              className="h-8 w-auto"
+              className="h-10 w-auto"
             />
           ) : (
             <p className="text-base font-semibold tracking-tight text-paper sm:text-lg">

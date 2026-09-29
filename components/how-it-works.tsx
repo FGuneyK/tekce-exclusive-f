@@ -92,8 +92,18 @@ export function HowItWorks() {
   return (
     <section id="how-it-works" className="scroll-mt-14 lg:scroll-mt-28 bg-mist">
       <div className="site-container section-y">
-        <h2 className="max-w-[22ch] text-[2rem] leading-[1.08] font-bold tracking-[-0.03em] text-ink sm:text-[2.5rem] lg:text-5xl">
-          One accountable partner from positioning to completed sales.
+        <h2 className="max-w-[24ch] text-[2rem] leading-[1.08] font-bold tracking-[-0.03em] text-ink sm:text-[2.5rem] lg:text-5xl">
+          One{" "}
+          {/* The brand signature, from tekceexclusive.com, set as a word. */}
+          <Image
+            src="/brand/exclusive-img.webp"
+            alt="exclusive"
+            width={839}
+            height={181}
+            unoptimized
+            className="inline-block h-[1.25em] w-auto align-[-0.28em]"
+          />{" "}
+          accountable partner from positioning to completed sales.
         </h2>
 
         <ol className="mt-12 grid gap-4 md:grid-cols-2 lg:mt-16 lg:grid-cols-12 lg:gap-5">

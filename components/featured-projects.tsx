@@ -45,8 +45,17 @@ export function FeaturedProjects() {
     <section id="projects" className="scroll-mt-14 lg:scroll-mt-28">
       <div className="site-container section-y">
         <div className="flex items-end justify-between gap-8">
-          <h2 className="max-w-[20ch] text-[2rem] leading-[1.08] font-bold tracking-[-0.03em] text-ink sm:text-[2.5rem] lg:text-5xl">
-            Projects we currently represent.
+          <h2 className="max-w-[24ch] text-[2rem] leading-[1.08] font-bold tracking-[-0.03em] text-ink sm:text-[2.5rem] lg:text-5xl">
+            {/* The brand signature, from tekceexclusive.com, set as a word. */}
+            <Image
+              src="/brand/exclusive-img.webp"
+              alt="Exclusive"
+              width={839}
+              height={181}
+              unoptimized
+              className="inline-block h-[1.25em] w-auto align-[-0.28em]"
+            />{" "}
+            projects we currently represent.
           </h2>
           <AllProjectsLink className="hidden shrink-0 pb-1.5 sm:inline-flex" />
         </div>

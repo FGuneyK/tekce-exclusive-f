@@ -30,7 +30,7 @@ export function SiteFooter() {
                 width={181}
                 height={57}
                 unoptimized
-                className="h-9 w-auto lg:h-10"
+                className="h-11 w-auto lg:h-12"
               />
             </Link>
             <p className="mt-6 max-w-[26rem] text-lg leading-[1.5] tracking-tight text-paper/70">

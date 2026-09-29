@@ -37,6 +37,16 @@ export function AboutExclusive() {
             </p>
           </div>
 
+          {/* The brand signature, from tekceexclusive.com, as a sign-off. */}
+          <Image
+            src="/brand/exclusive-img.webp"
+            alt=""
+            width={839}
+            height={181}
+            unoptimized
+            className="mt-10 h-auto w-[12rem] lg:w-[14rem]"
+          />
+
           <dl className="mt-12 grid max-w-[34rem] border-b border-ink/10 sm:grid-cols-2 sm:gap-x-8">
             {FACTS.map((fact) => (
               <div

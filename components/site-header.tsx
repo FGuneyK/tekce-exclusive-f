@@ -122,7 +122,7 @@ export function SiteHeader() {
               height={57}
               preload
               unoptimized
-              className="h-[26px] w-auto lg:h-[30px]"
+              className="h-[30px] w-auto lg:h-9"
             />
           </Link>
 
