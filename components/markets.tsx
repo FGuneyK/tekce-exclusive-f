@@ -119,7 +119,8 @@ export function Markets() {
       <div className="section-y">
         <div className="site-container lg:flex lg:items-end lg:justify-between lg:gap-20">
           <h2 className="max-w-[16ch] text-[2rem] leading-[1.08] font-bold tracking-[-0.03em] text-ink sm:text-[2.5rem] lg:text-5xl">
-            Four markets. One working day.
+            <span className="block">Four markets.</span>
+            <span className="block">One working day.</span>
           </h2>
           <p className="mt-6 max-w-[28rem] shrink-0 text-[17px] leading-[1.6] text-ink/70 lg:mt-0 lg:pb-1.5">
             In each of them, TEKCE Real Estate’s local infrastructure supports what
