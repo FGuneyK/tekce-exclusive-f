@@ -57,7 +57,7 @@ Kitleler arasındaki ayrımı metinlerde de koruyun: "Developers" projeyi inşa 
 | Platform | Arka plandaki sistem: dağıtım, TeleProperty, satış kaydı, geliştirici ve partner ekranları. |
 | Insights | Kaynaklı rehber yazılar ve görüş yazıları; her yazının kendi sayfası var. |
 | Company | TEKCE Exclusive ve TEKCE Global: rakamlar, tarihçe, iş modeli, ofis ağı, değerler, iletişim. |
-| Yasal sayfalar | Privacy Policy, Cookie Policy, Legal Notices, Terms of Use. Metinler şirketin kendi belgeleri; tek şablondan üretiliyor. |
+| Yasal sayfalar | Privacy Policy, Cookie Policy, Legal Notices, Terms of Use. Dördü için tek bir tasarım şablonu oluşturuldu; metinlerin güncel hâlleri ayrıca iletilecek. |
 
 ### Ortak sayfa kurgusu
 
@@ -792,7 +792,7 @@ Okuma süresi, "In this article" listesi ve "Keep reading" listesi otomatik olu�
 
 ### Yasal sayfalar
 
-Privacy Policy, Cookie Policy, Legal Notices ve Terms of Use aynı şablonu kullanır. Metinler şirketin kendi belgeleri; yayından önce hukuk onayı olmadan değiştirilmez.
+Privacy Policy, Cookie Policy, Legal Notices ve Terms of Use aynı şablonu kullanır. Bu sayfaların tasarım şablonu oluşturuldu; prototipteki metinler yer tutucu niteliğinde, güncel metin hâlleri ayrıca iletilecek.
 
 - Başlık: tek satır
 - Son güncelleme (isteğe bağlı): tarih
