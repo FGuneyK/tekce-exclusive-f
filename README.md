@@ -105,7 +105,7 @@ Sayfalar ink, mist ve paper bantlarının dönüşümlü ilerlemesiyle nefes al�
 
 **Bilerek kaçınılanlar:**
 - Başlıkların üstünde küçük etiketler (eyebrow). Her bölüm doğrudan başlıkla açılır.
-- Büyük istatistik karoları ("20+ ofis" gibi rakam blokları). Tek istisna, kullanıcının isteğiyle eklenen Company sayfasındaki "TEKCE Exclusive in numbers" bölümü.
+- Büyük istatistik karoları ("20+ ofis" gibi rakam blokları). Tek istisna Company sayfasındaki "TEKCE Exclusive in numbers" bölümü; şirketi rakamlarla anlatması için bilinçli olarak eklendi ve başka sayfaya taşınmamalı.
 - Fotoğrafın altına geniş beyaz bir yazı kutusu eklenen "polaroid" kartlar.
 - Dekoratif ikonlar, gradient arka planlar, yüzen şekiller.
 
@@ -146,6 +146,8 @@ Mobil, masaüstünün küçültülmüş hâli olarak değil, kendi kompozisyonuy
 - Ana sayfadaki proje vitrini mobilde yana kayan, parmakla çekilen bir sıraya dönüşür.
 - Unit tablosunda telefonda ikincil sütunlar (kat, banyo, iç alan) gizlenir; birincil sütunlar okunaklı kalır.
 - Ana sayfadaki SSS masaüstünde iki bölmeli bir okuyucu, mobilde tek cevabı açan bir akordeon.
+- Dağıtım diyagramı masaüstünde soldan sağa, mobilde yukarıdan aşağı akar; üç satış kanalı mobilde yan yana sığmadığı için alt alta dizilir. Partners'taki kanal kutuları da mobilde aynı şekilde alt alta iner.
+- Yasal sayfalardaki "Contents" listesi masaüstünde metnin yanında sabit durur, mobilde metnin üstünde açılıp kapanan bir listeye dönüşür.
 
 Kural şu: masaüstündeki bir kompozisyon telefona doğal şekilde sığmıyorsa, zorlanmıyor, yeniden kuruluyor.
 
@@ -156,7 +158,7 @@ Kural şu: masaüstündeki bir kompozisyon telefona doğal şekilde sığmıyors
 Tekrar eden kalıplar bilinçli olarak tek bir biçimde tutuldu. Aynı işi yapan iki farklı versiyon yok:
 
 - **Buton çifti.** Yan yana iki buton her zaman aynı boyutta: 44 px yükseklik, 20 px yan boşluk, ortak bir minimum genişlik. Biri dolu, biri çerçeveli. Buton ile yanında düz bir link yan yana kullanılmıyor.
-- **Veri paneli.** Fotoğrafların üzerinde duran küçük arayüz kartı: başlık satırı, etiket–değer satırları, işaretler. How it works, Developers, Invest ve Platform'da aynı panel kullanılıyor.
+- **Veri paneli.** Fotoğrafların üzerinde duran küçük arayüz kartı: başlık satırı, etiket–değer satırları, işaretler. How it works, Developers, Partners, Invest ve Platform'da aynı panel kullanılıyor.
 - **İnce çizgili veri listesi.** Solda etiket, sağda değer, aralarında ince çizgi. Proje künyesi, pazar bilgileri, mesafeler, maliyetler hep bu kalıpta.
 - **Doluluk şeridi.** Binadaki her konut için bir işaret; dolu olanlar satılık, soluk olanlar satılmış. Proje listesinde ve detayında aynı.
 - **Fotoğraflı liste satırı.** Solda görsel, sağda başlık, özet ve veri. Projects listesinde kullanılıyor.
@@ -204,7 +206,7 @@ Her bölüm aynı sırayla okunur: **başlık → destekleyen cümle → veri �
 
 Metinlerde korunması gereken kurallar:
 
-- **Doğrulanmamış bilgi yazılmaz.** Sitedeki her rakam, oran, eşik ve tarih yayımlanmış bir kaynaktan geliyor. Kaynaklar TEKCE Real Estate'in ülke ve maliyet rehberleri, tekceexclusive.com'daki proje ve unit tabloları; hepsi Eylül 2026'da kontrol edildi. Company sayfasındaki rakamlar TEKCE Exclusive'in kendisinden geliyor (Eylül 2026). Blog yazıları kaynaklarını sonlarında listeliyor. Rakamlar zamanla değişir; yayından önce yeniden kontrol edilmeli.
+- **Doğrulanmamış bilgi yazılmaz.** Sitedeki her rakam, oran, eşik ve tarih yayımlanmış bir kaynaktan geliyor. Kaynaklar TEKCE Real Estate'in ülke ve maliyet rehberleri, tekceexclusive.com'daki proje ve unit tabloları; hepsi Eylül 2026'da kontrol edildi. Tek istisna Company sayfasındaki rakamlar: bunlar TEKCE Exclusive'in kendi verisi, yayımlanmış bir kaynağı yok; yayından önce şirketle teyit edilmeli. Blog yazıları kaynaklarını sonlarında listeliyor. Rakamlar zamanla değişir; yayından önce yeniden kontrol edilmeli.
 - **Getiri vaadi yok.** Kira getirisi, yatırım getirisi, değer artışı ya da vergi planlaması iddiası hiçbir sayfada yok. Kaynak rehberlerde geçen bu tür ifadeler bilerek dışarıda bırakıldı. Hukuki ve mali konulara değinen bölümlerin sonunda "bu tavsiye değildir" notu var.
 - **Adlandırma.** Grubun gayrimenkul şirketi ve satış ortağı her yerde "TEKCE Real Estate" olarak geçiyor; "TEKCE Overseas" ya da yalnızca "TEKCE" kullanılmıyor. Grup, "TEKCE Global" olarak yazılıyor. Grubun şirketleri: TEKCE Real Estate, TEKCE Exclusive, TEKCE Visa.
 - **Grup ve platform ayrımı.** Ofisler ve hukuk ekibi TEKCE Global'e ait. TEKCE Exclusive'in ağzından "ofislerimiz" yazılmıyor; "TEKCE Real Estate's local infrastructure" gibi ifadeler kullanılıyor. TEKCE Exclusive'in kendi satış ekibi ise üçüncü satış kanalı olarak her kanal şemasında gösteriliyor.
@@ -222,7 +224,7 @@ Bu bölüm, sitedeki her bölümün içerik yönetim sisteminde nasıl düzenlen
 1. **Editör içeriği değiştirir, biçimi değiştirmez.** Yerleşim, renkler, tipografi, boşluklar ve bölüm içindeki düzen kilitli. Editörün eline yalnızca metin, görsel, link ve liste maddeleri geçer.
 2. **Bölümlerin sırası sabittir.** Pazarlama sayfalarında editör bölüm ekleyip silemez, yerlerini değiştiremez; bölüm sırası bir tasarım kararı. Her bölüm CMS'te sitedeki adıyla, sitedeki sırayla görünür.
 3. **Her metin parçası ayrı bir alandır.** Bir bölümün başlığı, açıklaması ve buton metni ayrı alanlarda tutulur; tek bir serbest "Body" alanına yazılmaz.
-4. **Zengin metin yalnızca düzyazı olan yerlerde.** Blog gövdesi ve sayfalardaki uzun okuma bölümleri. Orada da araç çubuğu kısıtlı: paragraf, ara başlık, kalın, italik, link, liste, alıntı, tablo. Yazı tipi, boyut, renk ve hizalama seçenekleri olmaz.
+4. **Zengin metin yalnızca düzyazı olan yerlerde.** Blog gövdesi, sayfalardaki uzun okuma bölümleri ve yasal sayfalar. Orada da araç çubuğu kısıtlı: paragraf, ara başlık, kalın, italik, link, liste, alıntı, tablo. Yazı tipi, boyut, renk ve hizalama seçenekleri olmaz.
 5. **Tekrar eden içerikler listedir.** Adımlar, sorular, bölgeler, maliyet kalemleri gibi. Editör madde ekleyip çıkarabilir ve sıralayabilir, ama parantez içindeki sınırlar içinde. Sınırlar tasarımın taşıyabildiği madde sayısını gösteriyor.
 
 ### İki genel kural
@@ -236,7 +238,7 @@ Fotoğrafların üzerindeki küçük veri panelleri ve "Illustrative interface."
 
 - **tek satır** — başlık, etiket, kısa değer
 - **çok satırlı düz metin** — açıklama, paragraf; araç çubuğu yok
-- **kısıtlı zengin metin** — yalnızca blog gövdesi ve uzun okumalar
+- **kısıtlı zengin metin** — yalnızca blog gövdesi, uzun okumalar ve yasal sayfalar
 - **görsel + alt metin**
 - **link** — metni ayrıca tek satır alan olarak tutulur
 - **sayı** — fiyat, alan, mesafe
@@ -279,8 +281,8 @@ Birden fazla sayfada kullanılan bölümler. Bir kez düzenlenirler; sayfa liste
 **Dağıtım ekosistemi** (ana sayfa, Developers, Platform)
 - Başlık: tek satır
 - Açıklama: çok satırlı düz metin
-- Diyagram düğümleri: liste (5 madde)
-  - Rol: tek satır ("Supply", "Platform" gibi)
+- Diyagram düğümleri: liste (6 madde; sayı sabit: geliştirici, platform, üç satış kanalı, alıcılar)
+  - Rol: tek satır ("Supply", "Platform", "Own sales team" gibi)
   - Ad: tek satır
   - Detay: tek satır
 
@@ -330,7 +332,7 @@ Birden fazla sayfada kullanılan bölümler. Bir kez düzenlenirler; sayfa liste
 **Dağıtım ekosistemi** — ortak bölüm
 
 **Markets**
-- Başlık: tek satır
+- Başlık: liste (2 satır; her satır ayrı bir tek satır alan: "Four markets." / "One working day.")
 - Açıklama: çok satırlı düz metin
 - Satırlar Markets koleksiyonundan otomatik gelir; yerel saat otomatik hesaplanır.
 
@@ -456,7 +458,7 @@ Birden fazla sayfada kullanılan bölümler. Bir kez düzenlenirler; sayfa liste
   - Metin: çok satırlı düz metin
 
 **Network rules**
-- Başlık: iki satır ("Three channels." / "One set of rules.")
+- Başlık: liste (2 satır; her satır ayrı bir tek satır alan: "Three channels." / "One set of rules.")
 - Açıklama: çok satırlı düz metin
 - Kanallar: liste (3 madde; TEKCE Exclusive, TEKCE Real Estate, partner ajans)
   - Rol: tek satır
@@ -794,7 +796,7 @@ Privacy Policy, Cookie Policy, Legal Notices ve Terms of Use aynı şablonu kull
 
 - Başlık: tek satır
 - Son güncelleme (isteğe bağlı): tarih
-- Gövde: zengin metin (ara başlıklar, paragraflar, madde listeleri, adres kutusu, link tablosu)
+- Gövde: kısıtlı zengin metin (ara başlık, paragraf, kalın, liste, tablo, adres kutusu)
 - "Contents" listesi ve belgeler arası sekmeler otomatik oluşur.
 
 ---
