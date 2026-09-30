@@ -12,7 +12,7 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 /**
- * Countries TEKCE sells property in, per tekce.com. Sweden is an office
+ * Countries TEKCE Real Estate sells property in, per tekce.com. Sweden is an office
  * location rather than a property market, so it is deliberately not listed.
  */
 export const MARKETS: NavItem[] = [

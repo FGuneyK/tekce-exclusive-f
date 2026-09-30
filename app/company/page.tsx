@@ -3,6 +3,7 @@ import { AboutExclusive } from "@/components/company/about-exclusive";
 import { BusinessModel } from "@/components/company/business-model";
 import { CompanyContact } from "@/components/company/company-contact";
 import { CompanyHero } from "@/components/company/company-hero";
+import { ExclusiveNumbers } from "@/components/company/exclusive-numbers";
 import { GlobalNetwork } from "@/components/company/global-network";
 import { GroupHistory } from "@/components/company/group-history";
 import { GroupValues } from "@/components/company/group-values";
@@ -12,7 +13,7 @@ import { TekceGroup } from "@/components/company/tekce-group";
 export const metadata: Metadata = {
   title: "Company | TEKCE Exclusive",
   description:
-    "TEKCE Exclusive is the project sales platform of TEKCE Group: who we are, the group behind us, our business model and our international network.",
+    "TEKCE Exclusive is the project sales platform of TEKCE Global: who we are, the group behind us, our business model and our international network.",
 };
 
 export default function CompanyPage() {
@@ -20,6 +21,7 @@ export default function CompanyPage() {
     <main>
       <CompanyHero />
       <AboutExclusive />
+      <ExclusiveNumbers />
       <TekceGroup />
       <GroupHistory />
       <PlatformEssay />

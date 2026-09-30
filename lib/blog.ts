@@ -31,7 +31,7 @@ const crm = (file: string) =>
 
 /**
  * Four articles written for the prototype. The arguments and the phrasing are
- * ours; every fact, rate, threshold and date in them comes from TEKCE's
+ * ours; every fact, rate, threshold and date in them comes from TEKCE Real Estate's
  * published country and cost guides or from the project unit tables on
  * tekceexclusive.com (checked September 2026), and each article lists its
  * sources. Nothing here is a return, yield or tax-planning claim.
@@ -51,7 +51,7 @@ export const ARTICLES: Article[] = [
     cta: { title: "Compare the four markets", href: "/markets" },
     blocks: [
       { type: "p", text: "A buyer comparing a flat in Antalya with one in Alicante is usually comparing two asking prices. That is the wrong comparison. By the time the deed is in their name, each country will have added its own taxes, registration charges and professional fees, and the gap between the cheapest and the dearest of our four markets on that measure alone is wider than most price negotiations." },
-      { type: "p", text: "These are the figures TEKCE publishes for each market, set side by side. They are planning figures: the exact amount depends on the property, the region and your own position." },
+      { type: "p", text: "These are the figures TEKCE Real Estate publishes for each market, set side by side. They are planning figures: the exact amount depends on the property, the region and your own position." },
       {
         type: "table",
         head: ["Market", "Added to the price", "Largest single item"],
@@ -64,7 +64,7 @@ export const ARTICLES: Article[] = [
       },
       { type: "h2", text: "Spain: new or resale decides it" },
       { type: "p", text: "Spain taxes a new home and a resale differently, and never both ways at once. A new home from a developer carries VAT at 10% — 21% on land, commercial units and separately deeded parking. A resale carries transfer tax instead, set by the region at between 7% and 10%. A new home also carries stamp duty of 1.2% to 1.5%; a resale only carries it where there is a mortgage." },
-      { type: "p", text: "On top of that sit legal fees of about 1% plus VAT, the notary at around €1,000 to €1,500 and the Land Registry at around €750. TEKCE's own worked examples make the difference concrete: a €100,000 resale in Málaga comes to about 10.2% on top, a €100,000 new build in Alicante to about 14.6%." },
+      { type: "p", text: "On top of that sit legal fees of about 1% plus VAT, the notary at around €1,000 to €1,500 and the Land Registry at around €750. TEKCE Real Estate's own worked examples make the difference concrete: a €100,000 resale in Málaga comes to about 10.2% on top, a €100,000 new build in Alicante to about 14.6%." },
       { type: "h2", text: "Türkiye: the lowest range, with a local custom" },
       { type: "p", text: "The main cost in Türkiye is the title deed transfer tax: 2% from the buyer and 2% from the seller, calculated on the declared price. By local custom the buyer often ends up paying the whole of it. The estate agent's fee runs from 2% to 6% plus VAT, charged to buyer and seller separately." },
       { type: "list", items: [
@@ -87,7 +87,7 @@ export const ARTICLES: Article[] = [
         "Who pays what? Türkiye's transfer tax is nominally split, and in practice often not.",
         "Will you borrow? A mortgage adds its own valuation, arrangement and registration costs everywhere.",
       ] },
-      { type: "note", text: "Rates and fees as published in TEKCE's cost guides, checked in September 2026. They are planning figures, not a quotation, and not legal or tax advice." },
+      { type: "note", text: "Rates and fees as published in TEKCE Real Estate's cost guides, checked in September 2026. They are planning figures, not a quotation, and not legal or tax advice." },
     ],
     sources: [
       { label: "Costs of buying property in Spain — tekce.com", href: "https://tekce.com/spain/purchase-costs" },
@@ -123,7 +123,7 @@ export const ARTICLES: Article[] = [
       { type: "h2", text: "What a purchase still involves" },
       { type: "p", text: "The mechanics are unchanged. A lawyer runs due diligence on the property, a reservation deposit holds it, you sign the purchase proposal, your NIE and a Spanish bank account are arranged, and the deed is transferred in front of a notary and recorded in the Registro de la Propiedad. It usually takes four to eight weeks from viewing to deed, two to four when everything is prepared in advance, and roughly a month longer with a mortgage." },
       { type: "p", text: "Budget around 9% to 14% on top of the price, depending on the region and on whether the home is new or resale. Spanish banks do lend to foreign buyers: a 20% deposit is the standard minimum, non-residents are usually asked for 25% to 40%, and lenders want proof of steady income and a valid residence permit." },
-      { type: "note", text: "A summary of TEKCE's published guide to buying in Spain, checked in September 2026. It is not legal or immigration advice; visa requirements change and apply case by case." },
+      { type: "note", text: "A summary of TEKCE Real Estate's published guide to buying in Spain, checked in September 2026. It is not legal or immigration advice; visa requirements change and apply case by case." },
     ],
     sources: [
       { label: "The ultimate guide to buying property in Spain — tekce.com", href: "https://tekce.com/spain" },
@@ -167,7 +167,7 @@ export const ARTICLES: Article[] = [
       ] },
       { type: "h2", text: "What it costs, and borrowing" },
       { type: "p", text: "Allow 8% to 20% on top of the value. A new home carries 5% VAT and the full 9% conveyance tax for foreign buyers; a resale is exempt from VAT. Stamp duty is 0.5%. Borrowing is harder to arrange here than in the other markets: where a mortgage is granted, it is capped at around half the property value, with a fee of about 1% of the amount borrowed." },
-      { type: "note", text: "A summary of TEKCE's published guides to buying in North Cyprus, checked in September 2026. It is not legal advice, and the permit process applies case by case." },
+      { type: "note", text: "A summary of TEKCE Real Estate's published guides to buying in North Cyprus, checked in September 2026. It is not legal advice, and the permit process applies case by case." },
     ],
     sources: [
       { label: "Living in North Cyprus: country and real estate guide — tekce.com", href: "https://tekce.com/north-cyprus" },

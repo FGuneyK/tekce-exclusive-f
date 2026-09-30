@@ -32,7 +32,7 @@ const STEPS: Step[] = [
   },
   {
     title: "Viewing and documents",
-    text: "When your client travels, TEKCE’s local infrastructure supports the viewing, the documentation and the steps towards closing.",
+    text: "When your client travels, TEKCE Real Estate’s local infrastructure supports the viewing, the documentation and the steps towards closing.",
     status: "Viewing booked",
     marker: "lock",
     log: { date: "03 Oct", event: "Viewing in Altea, supported locally" },

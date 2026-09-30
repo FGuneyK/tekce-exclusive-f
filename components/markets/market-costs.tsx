@@ -69,7 +69,7 @@ export function MarketCosts({ market }: { market: Market }) {
         </div>
 
         <p className="mt-10 max-w-[70ch] border-t border-paper/15 pt-6 text-[14px] leading-[1.6] text-paper/50">
-          Rates and fees as published in TEKCE&rsquo;s cost guide for this
+          Rates and fees as published in TEKCE Real Estate&rsquo;s cost guide for this
           market, checked in September 2026. They are planning figures, not a
           quotation, and not legal or tax advice — the rate that applies to you
           depends on the region, the property and your own position.

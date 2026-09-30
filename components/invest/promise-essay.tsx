@@ -113,7 +113,7 @@ export function PromiseEssay() {
               large ones.
             </p>
             <p>
-              TEKCE’s local infrastructure in Spain, Türkiye, North Cyprus and
+              TEKCE Real Estate’s local infrastructure in Spain, Türkiye, North Cyprus and
               the United Arab Emirates supports buyers through viewings,
               documentation and closing. Whether you buy directly from TEKCE
               Exclusive or through an agency you already trust, that support

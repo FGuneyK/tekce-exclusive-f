@@ -23,7 +23,7 @@ const STEPS: Step[] = [
   },
   {
     title: "Launch into the network",
-    text: "TEKCE and independent partners receive the project together, and reporting begins.",
+    text: "Our own sales team, TEKCE Real Estate and independent partners receive the project together, and reporting begins.",
   },
 ];
 

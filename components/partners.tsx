@@ -42,7 +42,7 @@ export function Partners() {
           </h2>
           <p className="mt-7 max-w-[32rem] text-lg leading-[1.6] text-ink/70">
             TEKCE Exclusive gives partners access to selected projects while
-            TEKCE’s local infrastructure supports viewings, documentation and
+            TEKCE Real Estate’s local infrastructure supports viewings, documentation and
             closing.
           </p>
         </div>

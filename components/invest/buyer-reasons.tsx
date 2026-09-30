@@ -69,7 +69,7 @@ const REASONS: Reason[] = [
   },
   {
     title: "Support where the property is.",
-    text: "TEKCE’s local infrastructure supports viewings, documentation and closing in Spain, Türkiye, North Cyprus and the United Arab Emirates, so distance does not become the problem.",
+    text: "TEKCE Real Estate’s local infrastructure supports viewings, documentation and closing in Spain, Türkiye, North Cyprus and the United Arab Emirates, so distance does not become the problem.",
     panel: {
       title: "On the ground",
       tag: "Your purchase",

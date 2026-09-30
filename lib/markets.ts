@@ -14,7 +14,7 @@ export type Market = NavItem & {
   blurb: string;
   /** Reasons that hold up without a price or a yield attached. */
   reasons: { title: string; text: string }[];
-  /** How a purchase runs, per TEKCE's published country guide. */
+  /** How a purchase runs, per TEKCE Real Estate's published country guide. */
   steps: string[];
   /** Background on the market itself, beyond the opening blurb. */
   context: string[];
@@ -24,7 +24,7 @@ export type Market = NavItem & {
   rules: string[];
   /** Questions with answers the guides actually give. */
   faqs: { q: string; a: string }[];
-  /** What a purchase adds on top of the price, per TEKCE's cost guide. */
+  /** What a purchase adds on top of the price, per TEKCE Real Estate's cost guide. */
   costs: {
     headline: string;
     rows: { item: string; rate: string; paidBy: string }[];
@@ -53,10 +53,10 @@ const portrait = (id: string) =>
  *
  * Markets come from the shared navigation list, so the header dropdown, the
  * homepage section and this page can never disagree. Photographs are
- * atmospheric Unsplash images of each region, not TEKCE locations.
+ * atmospheric Unsplash images of each region, not TEKCE Real Estate locations.
  *
  * Buying steps, ownership types, registries and timetables are taken from
- * TEKCE's own published country guides at tekce.com/spain, /turkiye,
+ * TEKCE Real Estate's own published country guides at tekce.com/spain, /turkiye,
  * /north-cyprus and /uae (checked 2026-09-16). Nothing here is a price, a
  * yield or a tax claim, and anything a guide does not state is left out.
  */
@@ -86,7 +86,7 @@ const DETAILS: Record<string, Omit<Market, keyof NavItem>> = {
       },
     ],
     steps: [
-      "TEKCE's lawyers run due diligence on the property and its ownership",
+      "TEKCE Real Estate's lawyers run due diligence on the property and its ownership",
       "A reservation deposit holds it",
       "You sign the purchase proposal",
       "Your NIE number and a Spanish bank account are arranged",
@@ -126,7 +126,7 @@ const DETAILS: Record<string, Omit<Market, keyof NavItem>> = {
         { item: "Notary", rate: "About €1,000–€1,500", paidBy: "Buyer" },
         { item: "Land Registry", rate: "About €750", paidBy: "Buyer" },
       ],
-      note: "VAT and transfer tax are never both paid — a home is one or the other. Notary and registry together usually come to €2,000–€2,500. TEKCE's own worked examples put a €100,000 resale in Málaga at about 10.2% and a €100,000 new build in Alicante at about 14.6%.",
+      note: "VAT and transfer tax are never both paid — a home is one or the other. Notary and registry together usually come to €2,000–€2,500. TEKCE Real Estate's own worked examples put a €100,000 resale in Málaga at about 10.2% and a €100,000 new build in Alicante at about 14.6%.",
     },
     borrowing:
       "Spanish banks lend to foreign buyers. A deposit of at least 20% is standard and non-residents are usually asked for 25% to 40%, alongside proof of steady income and a valid residence permit.",
@@ -162,7 +162,7 @@ const DETAILS: Record<string, Omit<Market, keyof NavItem>> = {
       },
     ],
     steps: [
-      "TEKCE's lawyers run due diligence on the property and its ownership",
+      "TEKCE Real Estate's lawyers run due diligence on the property and its ownership",
       "A reservation deposit holds it",
       "You sign the purchase agreement",
       "Your tax number and a Turkish bank account are arranged",
@@ -210,7 +210,7 @@ const DETAILS: Record<string, Omit<Market, keyof NavItem>> = {
       ownership: "Freehold, in most cases",
       registry: "Tapu Sicil Müdürlüğü (Land Registry)",
       obtain: "Turkish tax number",
-      timetable: "Not published",
+      timetable: "7–15 days to the deed",
     },
   },
   "/markets/north-cyprus": {
@@ -238,7 +238,7 @@ const DETAILS: Record<string, Omit<Market, keyof NavItem>> = {
       },
     ],
     steps: [
-      "TEKCE's lawyers run due diligence on the property and its ownership history",
+      "TEKCE Real Estate's lawyers run due diligence on the property and its ownership history",
       "A deposit reserves it",
       "You sign the purchase proposal",
       "A local bank account is arranged",

@@ -110,7 +110,7 @@ export function CompanyContact() {
               <a href={GROUP_SITE.href} target="_blank" rel="noopener noreferrer" className={rowClass}>
                 <span>
                   <span className="block text-2xl font-semibold tracking-[-0.02em] text-ink lg:text-[2rem]">
-                    TEKCE
+                    TEKCE Real Estate
                   </span>
                   <span className="mt-1 block text-[15px] tracking-tight text-ink/60">
                     Real estate services from our sister company.

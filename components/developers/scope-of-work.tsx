@@ -39,9 +39,10 @@ const STAGES: Stage[] = [
     number: "03",
     title: "Distribute",
     summary:
-      "The project goes live through two channels at once, both working within the same commercial logic.",
+      "The project goes live through three channels at once, all working within the same commercial logic.",
     deliverables: [
-      "TEKCE, as strategic group partner",
+      "TEKCE Exclusive’s own sales team",
+      "TEKCE Real Estate, as strategic group partner",
       "Qualified independent sales partners",
       "Registered and protected leads",
       "Project materials and live availability for partners",

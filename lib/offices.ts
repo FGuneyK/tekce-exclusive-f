@@ -7,13 +7,13 @@ export type OfficeCity = {
 
 export type OfficeCountry = {
   country: string;
-  /** True where TEKCE sells property; Sweden hosts an office only. */
+  /** True where TEKCE Real Estate sells property; Sweden hosts an office only. */
   market: boolean;
   cities: OfficeCity[];
 };
 
 /**
- * TEKCE offices as listed on tekce.com/corporate/contact (checked
+ * TEKCE Real Estate offices as listed on tekce.com/corporate/contact (checked
  * 2026-09-15). Coordinates are city-level and only position dots on the
  * network map.
  */

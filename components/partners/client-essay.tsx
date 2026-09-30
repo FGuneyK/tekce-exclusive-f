@@ -49,10 +49,10 @@ const BLOCKS: Block[] = [
   },
   {
     kind: "paragraph",
-    text: "TEKCE’s local infrastructure supports what buyers need on the ground: viewings, documentation and closing. You remain the person your client calls. When they arrive, the support is already in place.",
+    text: "TEKCE Real Estate’s local infrastructure supports what buyers need on the ground: viewings, documentation and closing. You remain the person your client calls. When they arrive, the support is already in place.",
     note: {
       term: "On the ground",
-      text: "Spain, Türkiye, North Cyprus and the United Arab Emirates.",
+      text: "Spain, Türkiye, North Cyprus and the United\u00a0Arab\u00a0Emirates.",
     },
   },
   { kind: "subhead", text: "Fewer, better projects" },

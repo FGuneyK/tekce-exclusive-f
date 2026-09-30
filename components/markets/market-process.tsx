@@ -4,7 +4,7 @@ const shortName = (label: string) =>
   label === "United Arab Emirates" ? "the UAE" : label;
 
 /**
- * The sequence a purchase follows in this country, as TEKCE's own guide sets
+ * The sequence a purchase follows in this country, as TEKCE Real Estate's own guide sets
  * it out. The order is the point: what has to happen before the deed moves.
  */
 export function MarketProcess({ market }: { market: Market }) {

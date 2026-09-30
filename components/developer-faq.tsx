@@ -21,13 +21,13 @@ const FAQS: Faq[] = [
   {
     question: "Who actually sells the units?",
     answer:
-      "Two channels working in parallel. TEKCE takes part as a commissioned strategic group partner, alongside qualified independent agencies. Both follow the same commercial logic, so reach grows without the network changing shape.",
+      "Three channels working in parallel. TEKCE Exclusive sells through its own sales team; TEKCE Real Estate takes part as a commissioned strategic group partner, alongside qualified independent agencies. All three follow the same commercial logic, so reach grows without the network changing shape.",
     link: { label: "How the network is built", href: "#distribution" },
   },
   {
     question: "Who supports the sale on the ground?",
     answer:
-      "TEKCE’s local infrastructure in Spain, Türkiye, North Cyprus and the United Arab Emirates supports viewings, documentation and closing. Independent partners extend that reach further.",
+      "TEKCE Real Estate’s local infrastructure in Spain, Türkiye, North Cyprus and the United Arab Emirates supports viewings, documentation and closing. Independent partners extend that reach further.",
     link: { label: "Explore the markets", href: "#markets" },
   },
   {

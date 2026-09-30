@@ -4,7 +4,7 @@ import Image from "next/image";
 const IMAGE =
   "https://images.unsplash.com/photo-1767045572136-868c9407818b?auto=format&fit=crop&w=2400&h=1400&q=80";
 
-/** What TEKCE's local infrastructure supports, per the verified offer. */
+/** What TEKCE Real Estate's local infrastructure supports, per the verified offer. */
 const SUPPORT = [
   {
     title: "Viewings",
@@ -42,9 +42,10 @@ export function OnTheGround() {
             Your client flies in. The support is already there.
           </h2>
           <p className="mt-6 max-w-[28rem] shrink-0 text-[17px] leading-[1.6] text-paper/80 lg:mt-0 lg:pb-1.5">
-            In Spain, Türkiye, North Cyprus and the United Arab Emirates,
-            TEKCE’s local infrastructure supports the part of the sale that
-            happens on the ground.
+            In Spain, Türkiye, North Cyprus and the{" "}
+            <span className="whitespace-nowrap">United Arab Emirates</span>,
+            TEKCE Real Estate’s local infrastructure supports the part of the
+            sale that happens on the ground.
           </p>
         </div>
 

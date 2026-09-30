@@ -34,7 +34,7 @@ const ROWS: Row[] = [
   {
     topic: "On the ground",
     fragmented: "Viewings and paperwork depend on whoever happened to make the sale.",
-    structured: "TEKCE’s local infrastructure supports viewings, documentation and closing.",
+    structured: "TEKCE Real Estate’s local infrastructure supports viewings, documentation and closing.",
   },
   {
     topic: "Visibility",

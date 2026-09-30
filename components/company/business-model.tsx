@@ -28,7 +28,10 @@ const LANES: Lane[] = [
     party: "TEKCE Exclusive",
     platform: true,
     blocks: [
-      { label: "Brings", items: ["Strategy", "Marketing", "Distribution management"] },
+      {
+        label: "Brings",
+        items: ["Strategy", "Marketing", "Distribution management", "Its own sales team"],
+      },
       {
         label: "Keeps in place",
         items: [
@@ -42,7 +45,7 @@ const LANES: Lane[] = [
   {
     role: "Sales",
     party: "Partner agencies",
-    note: "TEKCE and independent agencies",
+    note: "TEKCE Real Estate and independent agencies",
     blocks: [
       { label: "Bring", items: ["International buyers", "The relationship with them"] },
       {

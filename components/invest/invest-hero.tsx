@@ -26,7 +26,7 @@ export function InvestHero() {
 
         <p className="mx-auto mt-7 max-w-[38rem] text-lg leading-[1.6] text-paper/75">
           Selected new developments, complete project information and one
-          price whoever advises you — with TEKCE’s local support in Spain,
+          price whoever advises you — with TEKCE Real Estate’s local support in Spain,
           Türkiye, North Cyprus and the United Arab Emirates, from the first
           viewing through to closing.
         </p>

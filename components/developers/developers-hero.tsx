@@ -15,7 +15,8 @@ const MANDATE: PanelData = {
   rows: [
     { label: "Positioning", value: "Approved", marker: "check" },
     { label: "Sales pack", value: "Ready", marker: "check" },
-    { label: "TEKCE", value: "Live", marker: "square" },
+    { label: "TEKCE Exclusive sales", value: "Live", marker: "square" },
+    { label: "TEKCE Real Estate", value: "Live", marker: "square" },
     { label: "Independent partners", value: "Live", marker: "square" },
     { label: "Reporting", value: "Shared", marker: "square" },
   ],

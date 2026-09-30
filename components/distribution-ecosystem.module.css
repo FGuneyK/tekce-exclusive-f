@@ -1,21 +1,22 @@
 /*
   One DOM, two compositions. On narrow screens the flow runs top to bottom and
-  the two partner channels sit side by side; from lg it runs left to right and
-  the channels stack. Branch cells split the row in exact halves so the
-  connector curves land on the node centres at 25% and 75%.
+  the three sales channels stack as one block between straight connectors;
+  from lg it runs left to right and the channels stack in three equal rows, so
+  the connector curves land on the node centres at 1/6, 1/2 and 5/6.
 */
 .diagram {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   grid-template-areas:
-    "supply supply"
-    "c1 c1"
-    "platform platform"
-    "c2 c2"
-    "group external"
-    "c3 c3"
-    "demand demand";
-  column-gap: 0.75rem;
+    "supply"
+    "c1"
+    "platform"
+    "c2"
+    "own"
+    "group"
+    "external"
+    "c3"
+    "demand";
 }
 
 @media (width >= 64rem) {
@@ -23,11 +24,11 @@
     grid-template-columns:
       minmax(0, 1fr) 3.5rem minmax(0, 1fr) 3.5rem minmax(0, 1fr)
       3.5rem minmax(0, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
+      "supply c1 platform c2 own c3 demand"
       "supply c1 platform c2 group c3 demand"
       "supply c1 platform c2 external c3 demand";
-    column-gap: 0;
   }
 }
 
@@ -41,6 +42,7 @@
 
 .supply { grid-area: supply; }
 .platform { grid-area: platform; }
+.own { grid-area: own; }
 .group { grid-area: group; }
 .external { grid-area: external; }
 .demand { grid-area: demand; }
@@ -49,8 +51,8 @@
 .c3 { grid-area: c3; }
 
 /*
-  A short dash travels each connector in turn: into the platform, through both
-  channels at once, then on to buyers. All connectors share one duration, so
+  A short dash travels each connector in turn: into the platform, through all
+  three channels at once, then on to buyers. All connectors share one duration, so
   the stages stay in step indefinitely. Reduced-motion users get static lines
   via the global rule in globals.css.
 */

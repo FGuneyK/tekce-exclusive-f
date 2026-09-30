@@ -4,7 +4,7 @@ const CHAPTERS: Chapter[] = [
   {
     title: "Where it comes from",
     paragraphs: [
-      "TEKCE started in Antalya in 2004, selling homes to buyers from abroad. It grew the way good agencies grow: one city, then another, then another country. Istanbul, then Spain, then North Cyprus, Sweden and the United Arab Emirates.",
+      "TEKCE Real Estate started in Antalya in 2004, selling homes to buyers from abroad. It grew the way good agencies grow: one city, then another, then another country. Istanbul, then Spain, then North Cyprus, Sweden and the United Arab Emirates.",
       "That kind of growth teaches you what international buyers need: a clear picture, a fair price, and someone on the ground when they arrive. It also shows how differently a whole project behaves once it is offered abroad.",
     ],
   },
@@ -19,14 +19,14 @@ const CHAPTERS: Chapter[] = [
     title: "Why a platform, not another agency",
     paragraphs: [
       "A larger sales team would not solve this. A platform between the people who build projects and the people who sell them can.",
-      "Developers supply the project and the authority to sell it. We take on strategy, marketing and distribution management. Partner agencies sell in parallel: TEKCE, as a commissioned strategic group partner, and independent agencies, also commissioned. Leads are registered. Commissions are transparent. Reporting is shared.",
+      "Developers supply the project and the authority to sell it. We take on strategy, marketing and distribution management, and sell through our own sales team. Partner agencies sell in parallel: TEKCE Real Estate, as a commissioned strategic group partner, and independent agencies, also commissioned. Leads are registered. Commissions are transparent. Reporting is shared.",
       "The group taking part does not change the logic of the network. That is the point: an agency in another country should be able to trust the arrangement as much as the developer does.",
     ],
   },
   {
     title: "What we are building towards",
     paragraphs: [
-      "TEKCE Group’s stated vision is to be a leading global real estate platform. For TEKCE Exclusive, that ambition is narrower and more specific: to be the most accountable way to take a real estate project to international markets.",
+      "TEKCE Global’s stated vision is to be a leading global real estate platform. For TEKCE Exclusive, that ambition is narrower and more specific: to be the most accountable way to take a real estate project to international markets.",
       "Accountable means three things. The developer can see what is happening. The partner knows the client is theirs. The buyer gets the same price and the same information, whoever they speak to.",
     ],
     closing:

@@ -21,8 +21,6 @@ export type Photo = { src: string; alt: string };
 
 export type Project = {
   slug: string;
-  /** Developer reference as published by TEKCE Exclusive, e.g. "105". */
-  reference: string;
   name: string;
   location: string;
   country: string;
@@ -33,7 +31,7 @@ export type Project = {
   /** One line of fact about the project, taken from the published description. */
   summary: string;
   types: HomeType[];
-  /** Only set where TEKCE Exclusive publishes a construction stage. */
+  /** Only set where TEKCE Exclusive publishes a construction stage or completion. */
   stage?: string;
   /** What the gallery actually is, so the page can say so. */
   imagery: "Photographs" | "Computer-generated images";
@@ -93,7 +91,6 @@ const units = (rows: string[]): Unit[] =>
 export const PROJECTS: Project[] = [
   {
     slug: "viva-defne",
-    reference: "105",
     name: "Viva Defne",
     location: "Aksu, Antalya",
     country: "Türkiye",
@@ -103,7 +100,7 @@ export const PROJECTS: Project[] = [
     summary:
       "Two blocks on 7,716 m² in Altıntaş, built to LEED certification, 6 km from Antalya airport and 7 km from the Lara beaches.",
     types: ["Apartment"],
-    stage: "Under construction",
+    stage: "Completed",
     imagery: "Photographs",
     gallery: [
       {
@@ -216,7 +213,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "city-nest",
-    reference: "128",
     name: "City Nest",
     location: "Muratpaşa, Antalya",
     country: "Türkiye",
@@ -319,7 +315,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "viva-altea-beach",
-    reference: "125",
     name: "Viva Altea Beach",
     location: "Altea, Alicante",
     country: "Spain",
@@ -395,7 +390,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "neovilla-papatya-no2",
-    reference: "109",
     name: "Neovilla Papatya No2",
     location: "Serik, Antalya",
     country: "Türkiye",
@@ -405,7 +399,7 @@ export const PROJECTS: Project[] = [
     summary:
       "One four-bedroom villa in Kadriye with its own pool and garden, 2 km from the golf courses and 4 km from the beach.",
     types: ["Villa"],
-    stage: "Under construction",
+    stage: "Completed",
     imagery: "Photographs",
     gallery: [
       {

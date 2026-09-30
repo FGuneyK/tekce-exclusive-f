@@ -7,13 +7,22 @@ const STAGE_DELAY = 1.2; // seconds per connector, matches 24% of the 5s cycle
 
 const PATHS = {
   straight: { horizontal: ["M0 50 L100 50"], vertical: ["M50 0 L50 100"] },
+  // Three channels: the branches land on the centres of three equal rows.
   fork: {
-    horizontal: ["M0 50 C50 50 50 25 100 25", "M0 50 C50 50 50 75 100 75"],
-    vertical: ["M50 0 C50 50 25 50 25 100", "M50 0 C50 50 75 50 75 100"],
+    horizontal: [
+      "M0 50 C50 50 50 16.667 100 16.667",
+      "M0 50 L100 50",
+      "M0 50 C50 50 50 83.333 100 83.333",
+    ],
+    vertical: ["M50 0 L50 100"],
   },
   merge: {
-    horizontal: ["M0 25 C50 25 50 50 100 50", "M0 75 C50 75 50 50 100 50"],
-    vertical: ["M25 0 C25 50 50 50 50 100", "M75 0 C75 50 50 50 50 100"],
+    horizontal: [
+      "M0 16.667 C50 16.667 50 50 100 50",
+      "M0 50 L100 50",
+      "M0 83.333 C50 83.333 50 50 100 50",
+    ],
+    vertical: ["M50 0 L50 100"],
   },
 };
 
@@ -78,6 +87,7 @@ function Node({
   detail,
   variant = "default",
   branch = false,
+  stacked = false,
 }: {
   area: string;
   role: string;
@@ -85,11 +95,17 @@ function Node({
   detail?: string;
   variant?: NodeVariant;
   branch?: boolean;
+  /** A channel below the first one; phones stack the channels. */
+  stacked?: boolean;
 }) {
   const platform = variant === "platform";
 
   return (
-    <div className={`${area} ${branch ? "lg:py-2" : "lg:self-center"}`}>
+    <div
+      className={`${area} ${branch ? "lg:py-1.5" : "lg:self-center"} ${
+        stacked ? "mt-2 lg:mt-0" : ""
+      }`}
+    >
       <div
         className={`flex h-full min-h-[8.5rem] flex-col justify-between gap-6 border p-4 sm:p-5 lg:h-auto lg:min-h-[9rem] ${
           platform ? "border-paper bg-paper" : "border-paper/15 bg-ink-deep"
@@ -147,7 +163,8 @@ export function DistributionEcosystem() {
             </h2>
           </div>
           <p className="mt-6 max-w-[28rem] shrink-0 text-[17px] leading-[1.6] text-paper/70 lg:mt-0 lg:pb-1.5">
-            TEKCE participates as a commissioned strategic group partner
+            TEKCE Exclusive sells through its own sales team, while TEKCE Real
+            Estate participates as a commissioned strategic group partner
             alongside independent agencies—extending reach without changing the
             commercial logic of the network.
           </p>
@@ -159,11 +176,11 @@ export function DistributionEcosystem() {
             TEKCE Exclusive: strategy, marketing and distribution management.
           </li>
           <li>
-            Distributed in parallel to TEKCE, a commissioned strategic
-            group partner, and to independent partners, commissioned sales
-            partners.
+            Sold in parallel by TEKCE Exclusive&rsquo;s own sales team, by TEKCE
+            Real Estate, a commissioned strategic group partner, and by
+            independent partners, commissioned sales partners.
           </li>
-          <li>Both channels reach international buyers.</li>
+          <li>All three channels reach international buyers.</li>
         </ol>
 
         <div
@@ -184,13 +201,21 @@ export function DistributionEcosystem() {
             detail="Strategy · Marketing · Distribution management"
             variant="platform"
           />
-          <Connector area={styles.c2} shape="fork" stage={1} mobileHeight="h-14" />
+          <Connector area={styles.c2} shape="fork" stage={1} mobileHeight="h-10" />
+          <Node
+            area={styles.own}
+            role="Own sales team"
+            name="TEKCE Exclusive"
+            detail="Direct sales to buyers"
+            branch
+          />
           <Node
             area={styles.group}
             role="Strategic group partner"
-            name="TEKCE"
+            name="TEKCE Real Estate"
             detail="Commissioned sales partner"
             branch
+            stacked
           />
           <Node
             area={styles.external}
@@ -198,8 +223,9 @@ export function DistributionEcosystem() {
             name="Independent Partners"
             detail="Commissioned sales partners"
             branch
+            stacked
           />
-          <Connector area={styles.c3} shape="merge" stage={2} mobileHeight="h-14" />
+          <Connector area={styles.c3} shape="merge" stage={2} mobileHeight="h-10" />
           <Node
             area={styles.demand}
             role="Demand"

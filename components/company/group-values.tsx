@@ -14,7 +14,7 @@ export function GroupValues() {
       <div className="site-container section-y">
         <div className="lg:flex lg:items-end lg:justify-between lg:gap-20">
           <h2 className="max-w-[18ch] text-[2rem] leading-[1.08] font-bold tracking-[-0.03em] text-ink sm:text-[2.5rem] lg:text-5xl">
-            Values shared across TEKCE Group.
+            Values shared across TEKCE Global.
           </h2>
           <p className="mt-6 max-w-[28rem] shrink-0 text-[17px] leading-[1.6] text-ink/70 lg:mt-0 lg:pb-1.5">
             The group’s five values, each with its own motto. TEKCE Exclusive

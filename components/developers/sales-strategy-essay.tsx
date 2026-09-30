@@ -75,9 +75,9 @@ export function SalesStrategyEssay() {
           </p>
           <p>
             Distribution then runs through a network that shares the same
-            commercial logic. TEKCE takes part as a commissioned
-            strategic group partner, and qualified independent agencies work
-            alongside it. Leads are registered, so an introduction belongs to
+            commercial logic. Our own sales team sells the project directly.
+            TEKCE Real Estate takes part as a commissioned strategic group
+            partner, and qualified independent agencies work alongside it. Leads are registered, so an introduction belongs to
             whoever made it. Commissions are transparent, so partners put their
             effort where it is rewarded rather than where it feels safest.
           </p>
@@ -96,7 +96,7 @@ export function SalesStrategyEssay() {
             is responding.
           </p>
           <p>
-            On the ground, where the sale is finally decided, TEKCE’s local
+            On the ground, where the sale is finally decided, TEKCE Real Estate’s local
             infrastructure in Spain, Türkiye, North Cyprus and the United Arab
             Emirates supports the viewings, the documentation and the closing.
             The buyer who arrived with questions leaves with a completed

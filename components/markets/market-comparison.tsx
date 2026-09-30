@@ -97,7 +97,7 @@ export function MarketComparison() {
         </div>
 
         <p className="mt-10 max-w-[70ch] border-t border-paper/15 pt-6 text-[14px] leading-[1.6] text-paper/50">
-          Drawn from TEKCE&rsquo;s published country guides. It is a summary of
+          Drawn from TEKCE Real Estate&rsquo;s published country guides. It is a summary of
           how a purchase runs, not legal or tax advice, and the rules change —
           check the position that applies to you before you commit.
         </p>

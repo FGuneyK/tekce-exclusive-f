@@ -56,7 +56,8 @@ Kitleler arasındaki ayrımı metinlerde de koruyun: "Developers" projeyi inşa 
 | Markets | Satış yapılan dört pazarın listesi; her ülkenin kendi detay sayfası var. |
 | Platform | Arka plandaki sistem: dağıtım, TeleProperty, satış kaydı, geliştirici ve partner ekranları. |
 | Insights | Kaynaklı rehber yazılar ve görüş yazıları; her yazının kendi sayfası var. |
-| Company | TEKCE Exclusive ve TEKCE Group: tarihçe, iş modeli, ofis ağı, değerler, iletişim. |
+| Company | TEKCE Exclusive ve TEKCE Global: rakamlar, tarihçe, iş modeli, ofis ağı, değerler, iletişim. |
+| Yasal sayfalar | Privacy Policy, Cookie Policy, Legal Notices, Terms of Use. Metinler şirketin kendi belgeleri; tek şablondan üretiliyor. |
 
 ### Ortak sayfa kurgusu
 
@@ -68,7 +69,7 @@ Projects, Markets ve Insights ise **liste + detay** yapısında. Liste sayfalar�
 
 ## 5. Önemli bölüm mantıkları
 
-**Dağıtım ekosistemi (ana sayfa, Developers, Platform).** İş modelinin kendisi: geliştirici projeyi getirir, TEKCE Exclusive stratejiyi ve dağıtımı yönetir, satış iki kanaldan paralel yürür (TEKCE ve bağımsız partnerler), iki kanal da uluslararası alıcıya ulaşır. Diyagram her üç sayfada aynı, çünkü modelin tek bir doğru anlatımı olmalı.
+**Dağıtım ekosistemi (ana sayfa, Developers, Platform).** İş modelinin kendisi: geliştirici projeyi getirir, TEKCE Exclusive stratejiyi ve dağıtımı yönetir, satış üç kanaldan paralel yürür (TEKCE Exclusive'in kendi satış ekibi, TEKCE Real Estate ve bağımsız partnerler), üç kanal da uluslararası alıcıya ulaşır. Diyagram her üç sayfada aynı, çünkü modelin tek bir doğru anlatımı olmalı.
 
 **How it works (ana sayfa).** Dört aşama: Position, Prepare, Distribute, Manage. Her aşamanın fotoğrafının üzerinde, o aşamanın ne ürettiğini gösteren küçük bir arayüz paneli var. İkon yerine "ortaya çıkan iş" gösteriliyor.
 
@@ -104,7 +105,7 @@ Sayfalar ink, mist ve paper bantlarının dönüşümlü ilerlemesiyle nefes al�
 
 **Bilerek kaçınılanlar:**
 - Başlıkların üstünde küçük etiketler (eyebrow). Her bölüm doğrudan başlıkla açılır.
-- Büyük istatistik karoları ("20+ ofis" gibi rakam blokları).
+- Büyük istatistik karoları ("20+ ofis" gibi rakam blokları). Tek istisna, kullanıcının isteğiyle eklenen Company sayfasındaki "TEKCE Exclusive in numbers" bölümü.
 - Fotoğrafın altına geniş beyaz bir yazı kutusu eklenen "polaroid" kartlar.
 - Dekoratif ikonlar, gradient arka planlar, yüzen şekiller.
 
@@ -203,10 +204,10 @@ Her bölüm aynı sırayla okunur: **başlık → destekleyen cümle → veri �
 
 Metinlerde korunması gereken kurallar:
 
-- **Doğrulanmamış bilgi yazılmaz.** Sitedeki her rakam, oran, eşik ve tarih yayımlanmış bir kaynaktan geliyor. Kaynaklar TEKCE'nin ülke ve maliyet rehberleri, tekceexclusive.com'daki proje ve unit tabloları; hepsi Eylül 2026'da kontrol edildi. Blog yazıları kaynaklarını sonlarında listeliyor. Rakamlar zamanla değişir; yayından önce yeniden kontrol edilmeli.
+- **Doğrulanmamış bilgi yazılmaz.** Sitedeki her rakam, oran, eşik ve tarih yayımlanmış bir kaynaktan geliyor. Kaynaklar TEKCE Real Estate'in ülke ve maliyet rehberleri, tekceexclusive.com'daki proje ve unit tabloları; hepsi Eylül 2026'da kontrol edildi. Company sayfasındaki rakamlar TEKCE Exclusive'in kendisinden geliyor (Eylül 2026). Blog yazıları kaynaklarını sonlarında listeliyor. Rakamlar zamanla değişir; yayından önce yeniden kontrol edilmeli.
 - **Getiri vaadi yok.** Kira getirisi, yatırım getirisi, değer artışı ya da vergi planlaması iddiası hiçbir sayfada yok. Kaynak rehberlerde geçen bu tür ifadeler bilerek dışarıda bırakıldı. Hukuki ve mali konulara değinen bölümlerin sonunda "bu tavsiye değildir" notu var.
-- **Adlandırma.** Grubun satış ortağı her yerde yalnızca "TEKCE" olarak geçiyor; "TEKCE Overseas" kullanılmıyor. Grup, "TEKCE Group" olarak yazılıyor.
-- **Grup ve platform ayrımı.** Ofisler, danışmanlar ve hukuk ekibi TEKCE Group'a ait. TEKCE Exclusive'in ağzından "ofislerimiz" ya da "danışmanlarımız" yazılmıyor; "TEKCE's local infrastructure" gibi ifadeler kullanılıyor.
+- **Adlandırma.** Grubun gayrimenkul şirketi ve satış ortağı her yerde "TEKCE Real Estate" olarak geçiyor; "TEKCE Overseas" ya da yalnızca "TEKCE" kullanılmıyor. Grup, "TEKCE Global" olarak yazılıyor. Grubun şirketleri: TEKCE Real Estate, TEKCE Exclusive, TEKCE Visa.
+- **Grup ve platform ayrımı.** Ofisler ve hukuk ekibi TEKCE Global'e ait. TEKCE Exclusive'in ağzından "ofislerimiz" yazılmıyor; "TEKCE Real Estate's local infrastructure" gibi ifadeler kullanılıyor. TEKCE Exclusive'in kendi satış ekibi ise üçüncü satış kanalı olarak her kanal şemasında gösteriliyor.
 - **Pazar sayfaları tarafsız.** Ülke sayfaları bir satış metni değil, pazarın dışarıdan bir anlatımı. Orada proje sayısı ya da "biz buradayız" cümlesi yok.
 - **Render ve fotoğraf ayrımı.** Proje galerilerinde görselin gerçek fotoğraf mı bilgisayar görseli mi olduğu belirtiliyor: "Photographs supplied by the developer." ya da "Computer-generated images supplied by the developer."
 
@@ -455,8 +456,13 @@ Birden fazla sayfada kullanılan bölümler. Bir kez düzenlenirler; sayfa liste
   - Metin: çok satırlı düz metin
 
 **Network rules**
-- Başlık: tek satır
+- Başlık: iki satır ("Three channels." / "One set of rules.")
 - Açıklama: çok satırlı düz metin
+- Kanallar: liste (3 madde; TEKCE Exclusive, TEKCE Real Estate, partner ajans)
+  - Rol: tek satır
+  - Ad: tek satır
+  - Açıklama: tek satır
+  - Vurgulu: seçim listesi (evet / hayır; yalnızca partner ajans vurgulu)
 - Kurallar: liste (3 madde)
   - Başlık: tek satır
   - Metin: çok satırlı düz metin
@@ -527,10 +533,17 @@ Birden fazla sayfada kullanılan bölümler. Bir kez düzenlenirler; sayfa liste
   - Değer: tek satır
 - Görsel: görsel + alt metin
 
-**TEKCE Group**
+**TEKCE Exclusive in numbers**
 - Başlık: tek satır
 - Açıklama: çok satırlı düz metin
-- Şirketler: liste (2–6 madde)
+- Rakamlar: liste (5 madde)
+  - Değer: tek satır ("300,000+", "Millions")
+  - Etiket: tek satır
+
+**TEKCE Global**
+- Başlık: tek satır
+- Açıklama: çok satırlı düz metin
+- Şirketler: liste (2–4 madde)
   - Alan: tek satır
   - Şirket adı: tek satır
   - Açıklama: tek satır
@@ -659,11 +672,10 @@ Sayfa içi menü bölüm başlıklarından otomatik oluşur.
 Her proje bir koleksiyon kaydıdır; sayfası şablondan otomatik oluşur. Editörün doldurduğu alanlar:
 
 - Proje adı: tek satır
-- Referans numarası: tek satır
 - Konum: tek satır
 - Ülke: seçim listesi (Markets koleksiyonundan)
 - Konut tipleri: seçim listesi, birden fazla seçilebilir (Apartment / Penthouse / Villa)
-- İnşaat aşaması (isteğe bağlı): seçim listesi
+- Durum (isteğe bağlı): seçim listesi (Under construction / Completed)
 - Kart görseli: görsel + alt metin
 - Özet: tek satır
 - Galeri türü: seçim listesi (Photographs / Computer-generated images)
@@ -773,6 +785,17 @@ Her makale bir koleksiyon kaydıdır. Editörün doldurduğu alanlar:
   - Link: link
 
 Okuma süresi, "In this article" listesi ve "Keep reading" listesi otomatik oluşur. Şablon metinleri ("All articles", "In this article", "Questions this did not answer?", "Keep reading.", "Sources") bir kez düzenlenir.
+
+---
+
+### Yasal sayfalar
+
+Privacy Policy, Cookie Policy, Legal Notices ve Terms of Use aynı şablonu kullanır. Metinler şirketin kendi belgeleri; yayından önce hukuk onayı olmadan değiştirilmez.
+
+- Başlık: tek satır
+- Son güncelleme (isteğe bağlı): tarih
+- Gövde: zengin metin (ara başlıklar, paragraflar, madde listeleri, adres kutusu, link tablosu)
+- "Contents" listesi ve belgeler arası sekmeler otomatik oluşur.
 
 ---
 

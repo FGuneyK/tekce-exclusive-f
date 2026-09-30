@@ -122,7 +122,7 @@ export function Markets() {
             Four markets. One working day.
           </h2>
           <p className="mt-6 max-w-[28rem] shrink-0 text-[17px] leading-[1.6] text-ink/70 lg:mt-0 lg:pb-1.5">
-            In each of them, TEKCE’s local infrastructure supports what
+            In each of them, TEKCE Real Estate’s local infrastructure supports what
             international buyers need on the ground: viewings, documentation
             and closing.
           </p>

@@ -6,10 +6,10 @@ type Entry = { unit: string; channel: string; registered: string; stage: number 
 
 const PIPELINE: Entry[] = [
   { unit: "B-204", channel: "Independent partner", registered: "14 Sep", stage: 0 },
-  { unit: "A-112", channel: "TEKCE", registered: "11 Sep", stage: 1 },
+  { unit: "A-112", channel: "TEKCE Real Estate", registered: "11 Sep", stage: 1 },
   { unit: "C-307", channel: "Independent partner", registered: "06 Sep", stage: 2 },
-  { unit: "A-301", channel: "TEKCE", registered: "29 Aug", stage: 3 },
-  { unit: "C-402", channel: "Independent partner", registered: "18 Aug", stage: 4 },
+  { unit: "A-301", channel: "TEKCE Real Estate", registered: "29 Aug", stage: 3 },
+  { unit: "C-402", channel: "TEKCE Exclusive", registered: "18 Aug", stage: 4 },
 ];
 
 const TABS = ["Pipeline", "Channels", "Documents"];

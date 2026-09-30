@@ -1,6 +1,7 @@
 const SECTIONS = [
   { label: "About TEKCE Exclusive", href: "#about" },
-  { label: "TEKCE Group", href: "#group" },
+  { label: "In numbers", href: "#numbers" },
+  { label: "TEKCE Global", href: "#group" },
   { label: "How we got here", href: "#history" },
   { label: "Why we exist", href: "#perspective" },
   { label: "Business model", href: "#business-model" },
@@ -43,7 +44,7 @@ export function CompanyHero() {
       <div className="site-container grid gap-14 pt-14 pb-16 sm:pt-16 lg:grid-cols-12 lg:items-end lg:gap-x-16 lg:pt-20 lg:pb-24">
         <div className="lg:col-span-7">
           <h1 className="max-w-[17ch] text-[2.75rem] leading-[1.03] font-bold tracking-[-0.035em] text-paper sm:text-[3.5rem] lg:text-[4rem] xl:text-[4.75rem]">
-            We are the project sales platform of TEKCE Group.
+            We are the project sales platform of TEKCE Global.
           </h1>
           <p className="mt-7 max-w-[36rem] text-lg leading-[1.6] text-paper/75">
             TEKCE Exclusive takes real estate projects to international

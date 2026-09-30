@@ -31,8 +31,7 @@ export function ProjectHero({ project }: { project: Project }) {
         beds.length === 1 ? `${beds[0]}` : `${beds[0]}–${beds[beds.length - 1]}`,
     },
     { label: "Size", value: span(area, " m²") },
-    ...(project.stage ? [{ label: "Stage", value: project.stage }] : []),
-    { label: "Reference", value: `#${project.reference}` },
+    ...(project.stage ? [{ label: "Status", value: project.stage }] : []),
   ];
 
   return (

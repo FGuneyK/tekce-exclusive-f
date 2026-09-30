@@ -9,7 +9,7 @@ const MEDIA = ["360° tour", "Video", "Photos", "Bird’s-eye"];
 
 /**
  * Steps 01–04 follow the TeleProperty description on tekceexclusive.com;
- * step 05 follows TEKCE Group's published remote buying process.
+ * step 05 follows TEKCE Global's published remote buying process.
  */
 const STEPS = [
   {

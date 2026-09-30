@@ -25,7 +25,7 @@ export function AdviserChoice() {
               <p className="max-w-[28rem] text-[17px] leading-[1.6] text-paper/75">
                 Our sales team can take you through current projects, send you
                 the full project information and arrange viewings, with TEKCE
-                Group’s local support on the ground.
+                Global’s local support on the ground.
               </p>
               <a href={COMPANY.email.href} className={`mt-8 ${darkButton.primary}`}>
                 Email our sales team

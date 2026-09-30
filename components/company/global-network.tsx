@@ -122,7 +122,7 @@ export function GlobalNetwork() {
             Local offices. An international network.
           </h2>
           <p className="mt-6 max-w-[28rem] shrink-0 text-[17px] leading-[1.6] text-paper/70 lg:mt-0 lg:pb-1.5">
-            TEKCE Group’s offices support the part of a sale that happens on
+            TEKCE Global’s offices support the part of a sale that happens on
             the ground. Independent partner agencies extend the network’s reach
             beyond them.
           </p>
@@ -134,7 +134,7 @@ export function GlobalNetwork() {
             <figcaption className="mt-6 flex flex-wrap gap-x-6 gap-y-2 border-t border-paper/10 pt-5 text-xs tracking-tight text-paper/60 sm:text-[13px]">
               <span className="flex items-center gap-2">
                 <span aria-hidden="true" className="block size-2 bg-paper" />
-                TEKCE Group office
+                TEKCE Global office
               </span>
               <span className="flex items-center gap-2">
                 <span aria-hidden="true" className="block size-2 bg-accent" />

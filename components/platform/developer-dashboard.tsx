@@ -28,8 +28,9 @@ const PIPELINE = [
 ];
 
 const CHANNELS = [
-  { name: "TEKCE", share: "w-[58%]" },
-  { name: "Independent partners", share: "w-[42%]" },
+  { name: "TEKCE Exclusive", share: "w-[34%]" },
+  { name: "TEKCE Real Estate", share: "w-[40%]" },
+  { name: "Independent partners", share: "w-[26%]" },
 ];
 
 const DOCUMENTS = ["Sales pack", "Price list", "Sales report"];
@@ -37,7 +38,7 @@ const DOCUMENTS = ["Sales pack", "Price list", "Sales report"];
 const CAPABILITIES = [
   { title: "Availability", text: "Every unit’s status, as it changes." },
   { title: "Pipeline", text: "Where each enquiry and transaction stands." },
-  { title: "Channels", text: "Which partners are bringing buyers." },
+  { title: "Channels", text: "Which channels are bringing buyers." },
   { title: "Documents", text: "Sales materials, price lists and reports in one place." },
 ];
 

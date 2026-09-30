@@ -3,7 +3,7 @@ type Part = { title?: string; paragraphs: string[] };
 /**
  * The page's long read, set on ink: headings hang in the left column beside
  * their text, and one wide quote breaks the page. TeleProperty statements
- * come from tekceexclusive.com/services/tele-property and TEKCE Group's
+ * come from tekceexclusive.com/services/tele-property and TEKCE Global's
  * published remote-buying process; the rest is argument.
  *
  * Likely a CMS "article" block in production.
@@ -26,13 +26,13 @@ const PARTS: Part[] = [
     title: "Distance is the real problem",
     paragraphs: [
       "International buyers rarely live near the project they are considering. TeleProperty exists for that gap. Buyers and partners can meet one-on-one before visiting a project, explore it through 360° tours, video, photographs and bird’s-eye footage, and make an offer.",
-      "When a buyer does travel, it is often to confirm a decision rather than to begin one. And where they cannot be present, TEKCE Group’s remote buying process allows contracts to be shared at a distance and the title deed transfer to be completed through a power of attorney.",
+      "When a buyer does travel, it is often to confirm a decision rather than to begin one. And where they cannot be present, TEKCE Global’s remote buying process allows contracts to be shared at a distance and the title deed transfer to be completed through a power of attorney.",
     ],
   },
   {
     title: "People stay in the conversation",
     paragraphs: [
-      "A platform can route a lead. It cannot reassure a family buying a home in another country. That remains the work of a sales specialist, a partner agency, and TEKCE Group’s local infrastructure on the ground.",
+      "A platform can route a lead. It cannot reassure a family buying a home in another country. That remains the work of a sales specialist, a partner agency, and TEKCE Global’s local infrastructure on the ground.",
     ],
   },
 ];

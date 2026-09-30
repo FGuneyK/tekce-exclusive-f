@@ -55,14 +55,15 @@ const STEPS: Step[] = [
     number: "03",
     title: "Distribute",
     description:
-      "Immediate reach through TEKCE and qualified independent sales partners.",
+      "Immediate reach through our own sales team, TEKCE Real Estate and qualified independent sales partners.",
     image: unsplash("1505522606057-9738978fd326"),
     alt: "Aerial view of a waterfront residential development and marina.",
     span: "narrow",
     panel: {
       title: "Distribution",
       rows: [
-        { label: "TEKCE", value: "Live", marker: "square" },
+        { label: "TEKCE Exclusive sales", value: "Live", marker: "square" },
+        { label: "TEKCE Real Estate", value: "Live", marker: "square" },
         { label: "Sales partners", value: "Live", marker: "square" },
         { label: "Availability", value: "Synced", marker: "square" },
       ],

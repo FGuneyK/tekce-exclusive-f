@@ -3,14 +3,15 @@ import Image from "next/image";
 type Company = { sector: string; name: string; text: string; exclusive?: boolean };
 
 /**
- * TEKCE Group's brands as confirmed by the user (2026-09-15). TEKCE and
- * TEKCE Exclusive are sister companies. The group has no separate brands for
- * construction, investment or finance, so none are shown.
+ * TEKCE Global's brands as confirmed by the user (2026-09-15, renamed and
+ * TEKCE Academy removed 2026-09-29). TEKCE Real Estate and TEKCE Exclusive are
+ * sister companies. The group has no separate brands for construction,
+ * investment or finance, so none are shown.
  */
 const COMPANIES: Company[] = [
   {
     sector: "Real estate services",
-    name: "TEKCE",
+    name: "TEKCE Real Estate",
     text: "Real estate services for international clients.",
   },
   {
@@ -24,11 +25,6 @@ const COMPANIES: Company[] = [
     name: "TEKCE Visa",
     text: "Property contracts and visa services.",
   },
-  {
-    sector: "Academy",
-    name: "TEKCE Academy",
-    text: "Training for real estate professionals.",
-  },
 ];
 
 export function TekceGroup() {
@@ -40,9 +36,9 @@ export function TekceGroup() {
             Sister companies within one group.
           </h2>
           <p className="mt-6 max-w-[28rem] shrink-0 text-[17px] leading-[1.6] text-paper/70 lg:mt-0 lg:pb-1.5">
-            TEKCE Group began in Antalya in 2004 and today operates in Spain,
+            TEKCE Global began in Antalya in 2004 and today operates in Spain,
             Türkiye, North Cyprus, Sweden and the United Arab Emirates. TEKCE
-            and TEKCE Exclusive are sister companies within it.
+            Real Estate and TEKCE Exclusive are sister companies within it.
           </p>
         </div>
 
@@ -57,7 +53,7 @@ export function TekceGroup() {
               <p className="text-[11px] font-medium tracking-[0.08em] text-paper/50 uppercase">
                 Group
               </p>
-              <p className="mt-1 text-2xl font-semibold tracking-tight text-paper">TEKCE Group</p>
+              <p className="mt-1 text-2xl font-semibold tracking-tight text-paper">TEKCE Global</p>
             </div>
           </div>
           <div aria-hidden="true" className="hidden h-10 justify-center lg:flex">
@@ -67,9 +63,9 @@ export function TekceGroup() {
           <div className="relative mt-4 lg:mt-0">
             <span
               aria-hidden="true"
-              className="absolute top-0 right-[calc(100%/8)] left-[calc(100%/8)] hidden h-px bg-paper/25 lg:block"
+              className="absolute top-0 right-[calc(100%/6)] left-[calc(100%/6)] hidden h-px bg-paper/25 lg:block"
             />
-            <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 lg:gap-0">
+            <ul className="grid gap-3 sm:grid-cols-3 lg:gap-0">
               {COMPANIES.map((company) => (
                 <li key={company.name} className="relative lg:px-2.5 lg:pt-8">
                   <span
@@ -118,8 +114,8 @@ export function TekceGroup() {
           </div>
 
           <p className="mt-10 max-w-[44rem] text-[15px] leading-[1.6] text-paper/60 lg:mt-14">
-            TEKCE provides real estate services; TEKCE Exclusive sells projects.
-            In the TEKCE Exclusive partner network, TEKCE takes part as a
+            TEKCE Real Estate provides real estate services; TEKCE Exclusive sells projects.
+            In the TEKCE Exclusive partner network, TEKCE Real Estate takes part as a
             commissioned strategic group partner, within the same commercial
             logic as independent agencies.
           </p>

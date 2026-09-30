@@ -8,7 +8,7 @@ const IMAGE =
 const FACTS = [
   { term: "Established", detail: "2018" },
   { term: "Office", detail: "Kadıköy, Istanbul" },
-  { term: "Group", detail: "TEKCE Group" },
+  { term: "Group", detail: "TEKCE Global" },
   { term: "Works with", detail: "Developers, partner agencies and buyers" },
   { term: "Markets", detail: MARKETS.map((market) => market.label).join(", ") },
 ];
@@ -32,8 +32,9 @@ export function AboutExclusive() {
             </p>
             <p>
               Developers bring the project and the authority to sell it. We take
-              it to international buyers. TEKCE Exclusive and TEKCE are sister
-              companies within TEKCE Group.
+              it to international buyers. We have a team of professionals who
+              speak more than 30 languages. TEKCE Exclusive and TEKCE Real
+              Estate are sister companies within TEKCE Global.
             </p>
           </div>
 

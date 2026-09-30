@@ -149,8 +149,6 @@ function ProjectRow({ project }: { project: Project }) {
 
         <div className="sm:col-span-7">
           <p className="flex flex-wrap items-center gap-x-2 text-[13px] tracking-tight text-ink/50">
-            <span className="tabular-nums">#{project.reference}</span>
-            <span aria-hidden="true">·</span>
             <span>{project.types.join(" & ")}s</span>
             {project.stage && (
               <>

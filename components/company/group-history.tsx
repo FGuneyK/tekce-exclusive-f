@@ -3,7 +3,7 @@ const MILESTONES: Milestone[] = [
   {
     mark: "2004",
     title: "Antalya Homes",
-    text: "TEKCE begins in Antalya as Antalya Homes, selling property to international buyers.",
+    text: "TEKCE Real Estate begins in Antalya as Antalya Homes, selling property to international buyers.",
   },
   {
     mark: "2015",
@@ -24,12 +24,12 @@ const MILESTONES: Milestone[] = [
   {
     mark: "Then",
     title: "One name",
-    text: "The brands come together as TEKCE, and the group opens in North Cyprus, Sweden and the United Arab Emirates.",
+    text: "The brands come together as TEKCE Real Estate, and the group opens in North Cyprus, Sweden and the United Arab Emirates.",
   },
   {
     mark: "Today",
     title: "A group and a platform",
-    text: "TEKCE Group brings together TEKCE, TEKCE Exclusive, TEKCE Visa and TEKCE Academy.",
+    text: "TEKCE Global brings together TEKCE Real Estate, TEKCE Exclusive and TEKCE Visa.",
   },
 ];
 
